@@ -30,11 +30,17 @@ nav {
 
 .searchInput {
   border: none;
+  outline: none;
+  color: white;
   background-color: transparent;
 }
 
 .searchInput::placeholder {
   color: lightgray;
+}
+
+.searchIcon {
+  cursor: pointer;
 }
 
 .limitedOffer {
@@ -229,6 +235,7 @@ label {
   padding: 10px;
   margin: 10px 0px;
   border: none;
+  outline: none;
   border-bottom: 1px solid gray;
 }
 
@@ -422,6 +429,12 @@ footer {
 
 .fInput {
   padding: 5px;
+  outline: none;
+}
+
+.fInput:focus {
+  border-color: black;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75); 
 }
 
 .fButton {
